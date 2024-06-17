@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import axios from 'axios'
 import { useSelector } from 'react-redux'
-import { Form, Select } from 'antd';
+import { Select } from 'antd';
 import AccountSidebar from '@/components/AccountSidebar'
 import Input from '@/components/Input'
 import { swtoast } from '@/mixins/swal.mixin'

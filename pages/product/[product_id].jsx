@@ -1,12 +1,10 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
 import { Rate } from 'antd';
 import { StarFilled } from '@ant-design/icons'
 import { swtoast } from '@/mixins/swal.mixin'
-import { formatPrice, formatRate } from '../../helpers/format.js'
-
 import CarouselFade from '@/components/ProductDetailPage/Carousel.jsx'
 import OptionButton from '@/components/ProductDetailPage/OptionButton.jsx'
 import ProductQuantityInput from '@/components/ProductDetailPage/ProductQuantityInput.jsx'
